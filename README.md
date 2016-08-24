@@ -16,19 +16,19 @@
     7  cd geonode/
     8  virtualenv --no-site-packages env
     9  . env/bin/activate
-   10  git clone https://github.com/GeoNode/geonode.git
-   11  ls
-   12  cd geonode/
-   13  git fetch --tags
-   14  git checkout 2.4 -b 2.4
-   15  git branch 
-   16  git log
-   17  ls
-   18  gdalinfo --version
-   19  pip install pygdal==1.10.1
-   20  ls
-   21  pip install -e .
-   22  ls
-   23  python manage.py syncdb
-   24  paver setup
-   25  paver start
+    10  git clone https://github.com/GeoNode/geonode.git
+    11  ls
+    12  cd geonode/
+    13  git fetch --tags
+    14  git checkout 2.4 -b 2.4
+    15  git branch 
+    16  git log
+    17  ls
+    18  gdalinfo --version
+    19  pip install pygdal==1.10.1
+    20  ls
+    21  pip install -e .
+    22  ls
+    23  python manage.py syncdb
+    24  paver setup
+    25  paver start
