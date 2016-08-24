@@ -26,9 +26,7 @@
     17  ls
     18  gdalinfo --version
     19  pip install pygdal==1.10.1
-    20  ls
-    21  pip install -e .
-    22  ls
-    23  python manage.py syncdb
-    24  paver setup
-    25  paver start
+    20  pip install -e .
+    21  python manage.py syncdb
+    22  paver setup
+    23  paver start
