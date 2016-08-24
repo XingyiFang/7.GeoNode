@@ -7,7 +7,7 @@
 5. install geonode
 
 ##steps
-    1 sudo apt-get install apache2 gcc gdal-bin gettext git-core libapache2-mod-wsgi libgeos-dev libjpeg-dev libpng-dev libpq-dev libproj-dev libxml2-dev libxslt-dev openjdk-7-jre patch postgresql postgis postgresql-9.3-postgis-scripts postgresql-contrib       python python-dev python-gdal python-imaging python-pastescript python-psycopg2 python-support python-urlgrabber python-virtualenv    unzip zip
+    1  sudo apt-get install apache2 gcc gdal-bin gettext git-core libapache2-mod-wsgi libgeos-dev libjpeg-dev libpng-dev libpq-dev libproj-dev libxml2-dev libxslt-dev openjdk-7-jre patch postgresql postgis postgresql-9.3-postgis-scripts postgresql-contrib       python python-dev python-gdal python-imaging python-pastescript python-psycopg2 python-support python-urlgrabber python-virtualenv    unzip zip
     2  sudo apt-get install gdal-develop
     3  sudo apt-cache search gdal
     4  sudo apt-get install libgdal-dev
